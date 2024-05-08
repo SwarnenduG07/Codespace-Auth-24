@@ -21,7 +21,15 @@
 	"forwardPorts": [4000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install"
+	"postCreateCommand": "npm install",
+
+	"customizations" : {
+		"VScode" : {
+			"extensions": {
+				"ritwickdey.LiveServer"
+			},
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
